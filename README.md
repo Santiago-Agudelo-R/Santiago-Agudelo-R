@@ -20,9 +20,9 @@ In this repo space I publish the **tools and playbooks I wish I'd had during rea
 
 ### What I'm working on
 
-- 🔍 **IR-Triage-Collector:** adding scheduled task and service persistence checks
-- 🛠️ Preparing a Microsoft 365 / Entra ID audit toolkit (coming soon)
-- 📚 Studying detection engineering (KQL)
+- **IR-Triage-Collector:** Scheduled task and service persistence telemetry
+- **M365 / Entra ID audit toolkit:** Stale guest account, privileged role, and licensing hygiene (in progress)
+- **Detection Engineering:** Developing targeted KQL hunt queries for Microsoft Defender
 
 ---
 

@@ -25,10 +25,8 @@ Bilingual: English (C1 Advanced - EF SET Certified) | Spanish (Native)
 - **Technology Degree in Telecommunications**  
   *Institución Universitaria ITM, Medellín* | Completed Jan 2022  
 
-- **Postgraduate Roadmap:**  
-  Preparing for admission to postgraduate research and specialization programs at ITM:  
-  - [Specialization in Cybersecurity (Especialización en Ciberseguridad)](https://www.itm.edu.co/especializacion-en-ciberseguridad/)  
-  - [Master's in Information Security (Maestría en Seguridad Informática)](https://www.itm.edu.co/maestria-en-seguridad-informatica/)  
+- **Continuing Education Plans:**  
+  Aiming to begin postgraduate studies next year in cybersecurity and information security at ITM ([Specialization in Cybersecurity](https://www.itm.edu.co/especializacion-en-ciberseguridad/) / [Master's in Information Security](https://www.itm.edu.co/maestria-en-seguridad-informatica/)) to further expand technical depth in threat analysis and enterprise defense.
 
 ---
 

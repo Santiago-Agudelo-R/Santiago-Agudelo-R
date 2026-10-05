@@ -60,9 +60,9 @@ In this repo space I publish the **tools and playbooks I wish I'd had during rea
 
 | Project | What it does | Stack |
 | :--- | :--- | :--- |
-| [**IR-Triage-Collector**](https://github.com/Titaaron/IR-Triage-Collector) | Enterprise live-response collector for Windows endpoints: processes, network, persistence (Run keys, Tasks, Services), and Defender posture with hashed JSON reporting. | PowerShell · Live Response · Testing |
-| [**physics-class-analyzer**](https://github.com/Titaaron/physics-class-analyzer) | Multimodal Python pipeline for transcribing, segmenting, extracting LaTeX formulas, and generating structured study guides from physics lectures. | Python · Multimodal AI · Pytest · LaTeX |
-| [**whiteboard-telegram-collector**](https://github.com/Titaaron/whiteboard-telegram-collector) | Asynchronous Python service integrating a private Telegram Bot, SQLite, and APScheduler to ingest whiteboard captures and compile daily PDF decks. | Python · Telegram Bot API · SQLite · PDF |
+| [**IR-Triage-Collector**](https://github.com/Santiago-Agudelo-R/IR-Triage-Collector) | Enterprise live-response collector for Windows endpoints: processes, network, persistence (Run keys, Tasks, Services), and Defender posture with hashed JSON reporting. | PowerShell · Live Response · Testing |
+| [**physics-class-analyzer**](https://github.com/Santiago-Agudelo-R/physics-class-analyzer) | Multimodal Python pipeline for transcribing, segmenting, extracting LaTeX formulas, and generating structured study guides from physics lectures. | Python · Multimodal AI · Pytest · LaTeX |
+| [**whiteboard-telegram-collector**](https://github.com/Santiago-Agudelo-R/whiteboard-telegram-collector) | Asynchronous Python service integrating a private Telegram Bot, SQLite, and APScheduler to ingest whiteboard captures and compile daily PDF decks. | Python · Telegram Bot API · SQLite · PDF |
 
 **Coming soon**
 

@@ -60,7 +60,7 @@ In this repo space I publish the **tools and playbooks I wish I'd had during rea
 
 | Project | What it does | Stack |
 | :--- | :--- | :--- |
-| [**IR-Triage-Collector**](https://github.com/Titaaron/IR-Triage-Collector) | Live-response collector for Windows endpoints: processes, network, persistence and Defender posture, exported to hashed JSON. Runs locally, over WinRM or from CrowdStrike RTR / Defender Live Response. | PowerShell · Pester · GitHub Actions |
+| [**IR-Triage-Collector**](https://github.com/Titaaron/IR-Triage-Collector) | Live-response collector for Windows endpoints: processes, network, persistence and Defender posture, exported to hashed JSON. Runs locally, over WinRM or from CrowdStrike RTR / Defender Live Response. | PowerShell · Incident Response · Automated Testing |
 
 <!--
   When you publish a new repo, move it from the list below into the table above,

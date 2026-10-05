@@ -20,7 +20,7 @@ In this repo space I publish the **tools and playbooks I wish I'd had during rea
 
 ### What I'm working on
 
-- **IR-Triage-Collector:** Scheduled task and service persistence telemetry
+- **IR-Triage-Collector:** WMI event subscription and Startup folder persistence checks
 - **M365 / Entra ID audit toolkit:** Stale guest account, privileged role, and licensing hygiene (in progress)
 - **Detection Engineering:** Developing targeted KQL hunt queries for Microsoft Defender
 
@@ -56,13 +56,18 @@ In this repo space I publish the **tools and playbooks I wish I'd had during rea
 
 ---
 
-### Featured projects
+### Security tooling
 
 | Project | What it does | Stack |
 | :--- | :--- | :--- |
-| [**IR-Triage-Collector**](https://github.com/Santiago-Agudelo-R/IR-Triage-Collector) | Enterprise live-response collector for Windows endpoints: processes, network, persistence (Run keys, Tasks, Services), and Defender posture with hashed JSON reporting. | PowerShell · Live Response · Testing |
-| [**physics-class-analyzer**](https://github.com/Santiago-Agudelo-R/physics-class-analyzer) | Multimodal Python pipeline for transcribing, segmenting, extracting LaTeX formulas, and generating structured study guides from physics lectures. | Python · Multimodal AI · Pytest · LaTeX |
-| [**whiteboard-telegram-collector**](https://github.com/Santiago-Agudelo-R/whiteboard-telegram-collector) | Asynchronous Python service integrating a private Telegram Bot, SQLite, and APScheduler to ingest whiteboard captures and compile daily PDF decks. | Python · Telegram Bot API · SQLite · PDF |
+| [**IR-Triage-Collector**](https://github.com/Santiago-Agudelo-R/IR-Triage-Collector) | Enterprise live-response collector for Windows endpoints: processes, network, persistence (Run keys, Tasks, Services), and Defender posture with hashed JSON reporting. | PowerShell · Pester · GitHub Actions |
+
+### Other projects (Python & AI automation)
+
+| Project | What it does | Stack |
+| :--- | :--- | :--- |
+| [**physics-class-analyzer**](https://github.com/Santiago-Agudelo-R/physics-class-analyzer) | Multimodal Python pipeline for transcribing, segmenting, extracting LaTeX formulas, and generating study guides (DOCX/PDF + concept map) from physics lectures. Pluggable LLM providers (Ollama, OpenAI, offline mock). | Python · LLMs · Whisper · Pytest |
+| [**whiteboard-telegram-collector**](https://github.com/Santiago-Agudelo-R/whiteboard-telegram-collector) | Asynchronous Python service integrating a private Telegram Bot, SQLite, and APScheduler to ingest whiteboard captures and compile weekly PDF decks. | Python · Telegram Bot API · SQLite · PDF |
 
 **Coming soon**
 

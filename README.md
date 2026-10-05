@@ -60,18 +60,15 @@ In this repo space I publish the **tools and playbooks I wish I'd had during rea
 
 | Project | What it does | Stack |
 | :--- | :--- | :--- |
-| [**IR-Triage-Collector**](https://github.com/Titaaron/IR-Triage-Collector) | Live-response collector for Windows endpoints: processes, network, persistence and Defender posture, exported to hashed JSON. Runs locally, over WinRM or from CrowdStrike RTR / Defender Live Response. | PowerShell · Incident Response · Automated Testing |
-
-<!--
-  When you publish a new repo, move it from the list below into the table above,
-  with its link. Never link a repo that isn't public yet.
--->
+| [**IR-Triage-Collector**](https://github.com/Titaaron/IR-Triage-Collector) | Enterprise live-response collector for Windows endpoints: processes, network, persistence (Run keys, Tasks, Services), and Defender posture with hashed JSON reporting. | PowerShell · Live Response · Testing |
+| [**physics-class-analyzer**](https://github.com/Titaaron/physics-class-analyzer) | Multimodal Python pipeline for transcribing, segmenting, extracting LaTeX formulas, and generating structured study guides from physics lectures. | Python · Multimodal AI · Pytest · LaTeX |
+| [**whiteboard-telegram-collector**](https://github.com/Titaaron/whiteboard-telegram-collector) | Asynchronous Python service integrating a private Telegram Bot, SQLite, and APScheduler to ingest whiteboard captures and compile daily PDF decks. | Python · Telegram Bot API · SQLite · PDF |
 
 **Coming soon**
 
-- **M365 / Entra ID audit toolkit:** stale guest accounts, privileged roles and license hygiene
-- **SecOps field playbooks:** troubleshooting and RCA runbooks (AD replication, EDR sensors, mail flow)
-- **Threat intel enrichment CLI:** IOC enrichment with VirusTotal and AbuseIPDB, with Markdown reports
+- **M365 / Entra ID audit toolkit:** stale guest accounts, privileged roles, and license hygiene
+- **SecOps field playbooks:** enterprise troubleshooting and RCA runbooks (AD replication, EDR sensors, mail flow)
+- **Threat intel enrichment CLI:** automated multi-source IOC enrichment (VirusTotal, AbuseIPDB)
 
 ---
 

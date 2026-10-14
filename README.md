@@ -20,9 +20,9 @@ In this repo space I publish the **tools and playbooks I wish I'd had during rea
 
 ### What I'm working on
 
-- **IR-Triage-Collector:** WMI event subscription and Startup folder persistence checks
-- **M365 / Entra ID audit toolkit:** Stale guest account, privileged role, and licensing hygiene (in progress)
-- **Detection Engineering:** Developing targeted KQL hunt queries for Microsoft Defender
+- **SecOps field playbooks:** Enterprise troubleshooting and RCA runbooks (hybrid AD, EDR, and mailflow)
+- **Threat intel enrichment CLI:** Automated multi-source IOC enrichment (VirusTotal, AbuseIPDB)
+- **Detection Engineering:** Developing targeted KQL hunt queries for Microsoft Defender & Sentinel
 
 ---
 
@@ -56,11 +56,12 @@ In this repo space I publish the **tools and playbooks I wish I'd had during rea
 
 ---
 
-### Security tooling
+### Security & Governance tooling
 
 | Project | What it does | Stack |
 | :--- | :--- | :--- |
 | [**IR-Triage-Collector**](https://github.com/Santiago-Agudelo-R/IR-Triage-Collector) | Enterprise live-response collector for Windows endpoints: processes, network, persistence (Run keys, Tasks, Services), and Defender posture with hashed JSON reporting. | PowerShell · Pester · GitHub Actions |
+| [**M365-Entra-Audit-Toolkit**](https://github.com/Santiago-Agudelo-R/M365-Entra-Audit-Toolkit) | Automated governance and hygiene auditor for Microsoft 365, Entra ID, and Intune (stale guests, privileged role governance, license reclamation). | PowerShell · Microsoft Graph · Intune · Pester |
 
 ### Other projects (Python & AI automation)
 
@@ -71,7 +72,6 @@ In this repo space I publish the **tools and playbooks I wish I'd had during rea
 
 **Coming soon**
 
-- **M365 / Entra ID audit toolkit:** stale guest accounts, privileged roles, and license hygiene
 - **SecOps field playbooks:** enterprise troubleshooting and RCA runbooks (AD replication, EDR sensors, mail flow)
 - **Threat intel enrichment CLI:** automated multi-source IOC enrichment (VirusTotal, AbuseIPDB)
 

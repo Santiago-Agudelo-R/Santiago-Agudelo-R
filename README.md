@@ -20,7 +20,7 @@ In this repo space I publish the **tools and playbooks I wish I'd had during rea
 
 ### What I'm working on
 
-- **SecOps field playbooks:** Enterprise troubleshooting and RCA runbooks (hybrid AD, EDR, and mailflow)
+- **SecOps field playbooks:** Expanding L3 enterprise troubleshooting and RCA runbooks (Exchange Online mail flow, AWS IAM hygiene)
 - **Threat intel enrichment CLI:** Automated multi-source IOC enrichment (VirusTotal, AbuseIPDB)
 - **Detection Engineering:** Developing targeted KQL hunt queries for Microsoft Defender & Sentinel
 
@@ -61,7 +61,8 @@ In this repo space I publish the **tools and playbooks I wish I'd had during rea
 | Project | What it does | Stack |
 | :--- | :--- | :--- |
 | [**IR-Triage-Collector**](https://github.com/Santiago-Agudelo-R/IR-Triage-Collector) | Enterprise live-response collector for Windows endpoints: processes, network, persistence (Run keys, Tasks, Services), and Defender posture with hashed JSON reporting. | PowerShell · Pester · GitHub Actions |
-| [**M365-Entra-Audit-Toolkit**](https://github.com/Santiago-Agudelo-R/M365-Entra-Audit-Toolkit) | Automated governance and hygiene auditor for Microsoft 365, Entra ID, and Intune (stale guests, privileged role governance, license reclamation). | PowerShell · Microsoft Graph · Intune · Pester |
+| [**M365-Entra-Audit-Toolkit**](https://github.com/Santiago-Agudelo-R/M365-Entra-Audit-Toolkit) | Automated governance and hygiene auditor for Microsoft 365, Entra ID, and Intune (stale guests, privileged role governance, Conditional Access posture, license reclamation). | PowerShell · Microsoft Graph · Intune · Pester |
+| [**SecOps-Field-Playbooks**](https://github.com/Santiago-Agudelo-R/SecOps-Field-Playbooks) | Production L3 operational runbooks and RCA playbooks for Intune BitLocker escrow remediation, Hybrid AD replication (`repadmin`/`dcdiag`), and EDR containment validation. | Markdown · Intune · Active Directory · EDR |
 
 ### Other projects (Python & AI automation)
 
@@ -72,8 +73,8 @@ In this repo space I publish the **tools and playbooks I wish I'd had during rea
 
 **Coming soon**
 
-- **SecOps field playbooks:** enterprise troubleshooting and RCA runbooks (AD replication, EDR sensors, mail flow)
 - **Threat intel enrichment CLI:** automated multi-source IOC enrichment (VirusTotal, AbuseIPDB)
+- **Defender & Sentinel KQL Hunt Pack:** targeted detection and threat hunting queries for identity and endpoint anomalies
 
 ---
 

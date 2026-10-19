@@ -1,6 +1,6 @@
 <h1 align="center">Santiago Agudelo</h1>
 <p align="center">
-  <b>Security Operations &amp; Cloud Infrastructure Engineer</b> · Endpoint Security · Microsoft &amp; AWS · Incident Response
+  <b>Security Operations Analyst</b> · Endpoint Security · Incident Response · Microsoft Identity
 </p>
 
 <p align="center">
@@ -14,49 +14,39 @@
 
 ### About me
 
-Security Operations Analyst and Systems Engineer with **5+ years in enterprise IT infrastructure** and **3+ years dedicated to Security Operations, Endpoint Engineering, and Cloud Governance**. I secure and automate **1,000+ endpoints and hybrid workloads** across North America, LATAM, and Europe.
+Security Operations Analyst with 5+ years in enterprise IT infrastructure and 3+ years focused on Security Operations, endpoint security, vulnerability management, and Microsoft identity governance. My day-to-day work covers investigating EDR detections, validating alerts, containing hosts, and securing **1,000+ endpoints** across North America, LATAM, and Europe using CrowdStrike Falcon, Microsoft Defender for Endpoint, Intune, Entra ID, Active Directory, and PowerShell automation.
 
-- **Security Operations & Incident Response:** End-to-end alert triage, process-tree analysis, host containment, and live forensics across **Microsoft Defender XDR**, **CrowdStrike Falcon (RTR)**, **SentinelOne**, **Microsoft Sentinel (KQL)**, and **Mimecast**.
-- **Microsoft Cloud, Identity & Endpoint Governance:** Zero-Trust policy enforcement across **Entra ID** (Conditional Access, PIM, RBAC), **Microsoft Intune** (MDM compliance, BitLocker escrow, Proactive Remediations), **Microsoft Purview (DLP)**, and **Hybrid Active Directory** (GPO/OU architecture, least-privilege NTFS/RBAC overhauls).
-- **Cloud Infrastructure & Automation:** Multi-cloud security baselines and operational tooling across **Azure** and **AWS** using **PowerShell**, **Python**, **Terraform**, **Azure Bicep**, and **Docker**.
-
-In this repository space I publish production-grade **PowerShell and Python tools, Infrastructure-as-Code baselines, and L3 operational runbooks** built for real-world incident response and infrastructure engineering.
+In this repository space I share the PowerShell, Python, and operational runbooks I use for endpoint triage, identity hygiene, and infrastructure troubleshooting.
 
 ---
 
 ### Tech stack
 
-**Security Operations & XDR / SIEM**<br>
-<img src="https://img.shields.io/badge/Defender_XDR-0078D4?style=flat-square&logo=microsoft&logoColor=white">
-<img src="https://img.shields.io/badge/Microsoft_Sentinel_(KQL)-0078D4?style=flat-square&logo=microsoftazure&logoColor=white">
+**Security**<br>
 <img src="https://img.shields.io/badge/CrowdStrike_Falcon-E01F3D?style=flat-square&logo=crowdstrike&logoColor=white">
-<img src="https://img.shields.io/badge/SentinelOne-6C1D5F?style=flat-square">
-<img src="https://img.shields.io/badge/Microsoft_Purview_DLP-0078D4?style=flat-square&logo=microsoft&logoColor=white">
+<img src="https://img.shields.io/badge/Defender_for_Endpoint-0078D4?style=flat-square&logo=microsoft&logoColor=white">
 <img src="https://img.shields.io/badge/Mimecast-1E1E1E?style=flat-square">
-<img src="https://img.shields.io/badge/CIS_%26_NIST_CSF-555?style=flat-square">
+<img src="https://img.shields.io/badge/CIS_Benchmarks-555?style=flat-square">
+<img src="https://img.shields.io/badge/NIST_CSF-555?style=flat-square">
 
-**Cloud, Identity & Endpoint Management**<br>
-<img src="https://img.shields.io/badge/Microsoft_Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white">
-<img src="https://img.shields.io/badge/AWS_Cloud-232F3E?style=flat-square&logo=amazonaws&logoColor=white">
+**Identity & Endpoint Management**<br>
 <img src="https://img.shields.io/badge/Entra_ID-0078D4?style=flat-square&logo=microsoft&logoColor=white">
 <img src="https://img.shields.io/badge/Active_Directory-0078D4?style=flat-square&logo=windows&logoColor=white">
-<img src="https://img.shields.io/badge/Microsoft_Intune-0078D4?style=flat-square&logo=microsoft&logoColor=white">
+<img src="https://img.shields.io/badge/Intune-0078D4?style=flat-square&logo=microsoft&logoColor=white">
 <img src="https://img.shields.io/badge/Microsoft_365-D83B01?style=flat-square&logo=microsoftoffice&logoColor=white">
 
-**Automation & Infrastructure as Code**<br>
+**Automation**<br>
 <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white">
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
-<img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white">
-<img src="https://img.shields.io/badge/Azure_Bicep-0089D6?style=flat-square&logo=microsoftazure&logoColor=white">
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white">
 <img src="https://img.shields.io/badge/Power_Automate-0066FF?style=flat-square&logo=powerautomate&logoColor=white">
 <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white">
+<img src="https://img.shields.io/badge/Claude_API-D97757?style=flat-square&logo=anthropic&logoColor=white">
 
-**Systems & Networking Infrastructure**<br>
+**Infrastructure**<br>
 <img src="https://img.shields.io/badge/Windows_Server-0078D4?style=flat-square&logo=windows&logoColor=white">
 <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black">
 <img src="https://img.shields.io/badge/VMware_vSphere-607078?style=flat-square&logo=vmware&logoColor=white">
-<img src="https://img.shields.io/badge/Cisco_%26_Palo_Alto-1BA0D7?style=flat-square&logo=cisco&logoColor=white">
+<img src="https://img.shields.io/badge/Cisco-1BA0D7?style=flat-square&logo=cisco&logoColor=white">
 
 ---
 
@@ -64,9 +54,9 @@ In this repository space I publish production-grade **PowerShell and Python tool
 
 | Project | What it does | Stack |
 | :--- | :--- | :--- |
-| [**IR-Triage-Collector**](https://github.com/Santiago-Agudelo-R/IR-Triage-Collector) | Enterprise live-response collector for Windows endpoints: processes, network, persistence (Run keys, Tasks, Services), and Defender posture with hashed JSON reporting. | PowerShell · Pester · GitHub Actions |
-| [**M365-Entra-Audit-Toolkit**](https://github.com/Santiago-Agudelo-R/M365-Entra-Audit-Toolkit) | Automated governance and hygiene auditor for Microsoft 365, Entra ID, and Intune (stale guests, privileged role governance, Conditional Access posture, license reclamation). | PowerShell · Microsoft Graph · Intune · Pester |
-| [**SecOps-Field-Playbooks**](https://github.com/Santiago-Agudelo-R/SecOps-Field-Playbooks) | Production L3 operational runbooks and RCA playbooks for Intune BitLocker escrow remediation, Hybrid AD replication (`repadmin`/`dcdiag`), and EDR containment validation. | Markdown · Intune · Active Directory · EDR |
+| [**IR-Triage-Collector**](https://github.com/Santiago-Agudelo-R/IR-Triage-Collector) | Live-response forensic collector for Windows endpoints: processes, network connections, persistence (Run keys, Tasks, Services), and Defender posture with SHA256-hashed JSON output. | PowerShell · Pester · GitHub Actions |
+| [**M365-Entra-Audit-Toolkit**](https://github.com/Santiago-Agudelo-R/M365-Entra-Audit-Toolkit) | Governance and hygiene auditor for Microsoft 365, Entra ID, and Intune (stale guests, privileged role assignments, Conditional Access posture, license reclamation). | PowerShell · Microsoft Graph · Intune · Pester |
+| [**SecOps-Field-Playbooks**](https://github.com/Santiago-Agudelo-R/SecOps-Field-Playbooks) | Operational troubleshooting and RCA runbooks for Intune BitLocker escrow remediation, Hybrid Active Directory replication (`repadmin`/`dcdiag`), and EDR host containment validation. | Markdown · Intune · Active Directory · EDR |
 
 ### Other projects (Python & AI automation)
 
@@ -77,8 +67,9 @@ In this repository space I publish production-grade **PowerShell and Python tool
 
 **In active development**
 
-- **Intune & RMM Proactive Remediations:** PowerShell detection/remediation pairs for BitLocker Entra ID escrow, Local Admin baseline enforcement, and VSS backup health
-- **Multi-Cloud SecOps & IaC Baselines:** AWS (`boto3` + Terraform) and Microsoft Sentinel / Defender XDR (`KQL` + Azure Bicep/Terraform) security packs
+- **Intune Proactive Remediations:** PowerShell detection and remediation script pairs for BitLocker key escrow and local administrator baseline hygiene
+- **Threat intel enrichment CLI:** Multi-source IOC enrichment utility in Python (VirusTotal, AbuseIPDB)
+- **Cloud & SIEM lab expansion:** Building hands-on detection and posture labs for Microsoft Sentinel (KQL, SC-200 track) and AWS/Azure infrastructure
 
 ---
 

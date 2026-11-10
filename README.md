@@ -1,78 +1,83 @@
-﻿<h1 align="center">Santiago Agudelo</h1>
+<h1 align="center">Santiago Agudelo</h1>
 <p align="center">
-  <b>Security Operations Analyst</b> Â· Endpoint Security Â· Incident Response Â· Microsoft Identity
+  <b>Security Operations Analyst</b> · EDR &amp; Incident Response · Microsoft Identity &amp; Intune · PowerShell Automation
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/santiago-agudelo-/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:santiagudero@outlook.com"><img src="https://img.shields.io/badge/Email-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white" alt="Email"></a>
-  <img src="https://img.shields.io/badge/MedellÃ­n,_Colombia-Remote_Worldwide-2ea44f?style=for-the-badge" alt="Remote">
-  <img src="https://img.shields.io/badge/English_C1-Spanish_Native-555?style=for-the-badge" alt="Languages">
+  <a href="mailto:santiagudero@outlook.com"><img src="https://img.shields.io/badge/Email-0078D4?style=for-the-badge" alt="Email"></a>
+  <img src="https://img.shields.io/badge/Medell%C3%ADn,_Colombia-Open_to_Remote-2ea44f?style=for-the-badge" alt="Medellín, Colombia, open to remote">
+  <img src="https://img.shields.io/badge/English_C1-Spanish_Native-555?style=for-the-badge" alt="English C1, Spanish native">
 </p>
 
 ---
 
 ### About me
 
-Security Operations Analyst with 5+ years in enterprise IT infrastructure and 3+ years focused on Security Operations, endpoint security, vulnerability management, and Microsoft identity governance. My day-to-day work covers investigating EDR detections, validating alerts, containing hosts, and securing **1,000+ endpoints** across North America, LATAM, and Europe using CrowdStrike Falcon, Microsoft Defender for Endpoint, Intune, Entra ID, Active Directory, and PowerShell automation.
+Security Operations Analyst with 5+ years in enterprise IT and 3+ years in Security Operations. Every week I triage EDR detections in **CrowdStrike Falcon** and **Microsoft Defender**, contain hosts with Real Time Response, and help keep **1,000+ endpoints** patched and compliant across North America, LATAM, and Europe with **Intune**, **Entra ID**, and **PowerShell**.
 
-In this repository space I share the PowerShell, Python, and operational runbooks I use for endpoint triage, identity hygiene, and infrastructure troubleshooting.
+This is where I publish the tools and runbooks I build around that work. The tooling repositories include automated tests and CI, the PowerShell tools ship versioned releases, and all sample data is anonymized.
+
+---
+
+### Security tooling
+
+| Project | What it does | Stack |
+| :--- | :--- | :--- |
+| [**IR-Triage-Collector**](https://github.com/Santiago-Agudelo-R/IR-Triage-Collector) | Live-response collector for Windows endpoints (local, WinRM, CrowdStrike RTR, Defender Live Response): processes, network connections, persistence (Run keys, scheduled tasks, services), Authenticode checks, and SHA256-hashed JSON evidence. | PowerShell · Pester · GitHub Actions |
+| [**M365-Entra-Audit-Toolkit**](https://github.com/Santiago-Agudelo-R/M365-Entra-Audit-Toolkit) | Governance auditor for Microsoft 365, Entra ID, and Intune: stale guests, privileged roles with live PIM and MFA verification, Conditional Access posture, device encryption, and license reclamation. | PowerShell · Microsoft Graph · Pester |
+| [**Intune-Proactive-Remediations**](https://github.com/Santiago-Agudelo-R/Intune-Proactive-Remediations) | Detection and remediation script pairs for BitLocker key escrow, local administrator hygiene, and VSS / Windows Update health. Safe by default and language-independent. | PowerShell · Intune · Pester |
+| [**SecOps-Field-Playbooks**](https://github.com/Santiago-Agudelo-R/SecOps-Field-Playbooks) | Troubleshooting and RCA runbooks for Intune BitLocker escrow, hybrid AD replication, and EDR sensor health, plus clearly labeled self-directed lab runbooks (AWS Systems Manager, SentinelOne). | Markdown · Intune · AD · EDR |
+
+### AI & Python
+
+| Project | What it does | Stack |
+| :--- | :--- | :--- |
+| [**physics-class-analyzer**](https://github.com/Santiago-Agudelo-R/physics-class-analyzer) | Pipeline that transcribes lectures and uses pluggable LLM providers to segment content, extract LaTeX formulas, and generate DOCX/PDF study guides, with an offline mock provider for cost-free testing. | Python · LLM APIs · Whisper · pytest |
+
+**How I build:** I work with AI coding agents (Claude Code, Gemini, Google Antigravity) for design, refactoring, and review. I own the architecture decisions and verify every change with linting, unit tests, and CI.
+
+---
+
+### Currently learning
+
+- **Microsoft Sentinel and KQL** detection labs (SC-200 track)
+- **AWS** (Systems Manager, IAM) and **SentinelOne** threat hunting in self-directed labs
 
 ---
 
 ### Tech stack
 
-**Security**<br>
-<img src="https://img.shields.io/badge/CrowdStrike_Falcon-E01F3D?style=flat-square&logo=crowdstrike&logoColor=white">
-<img src="https://img.shields.io/badge/Defender_for_Endpoint-0078D4?style=flat-square&logo=microsoft&logoColor=white">
-<img src="https://img.shields.io/badge/Mimecast-1E1E1E?style=flat-square">
-<img src="https://img.shields.io/badge/CIS_Benchmarks-555?style=flat-square">
-<img src="https://img.shields.io/badge/NIST_CSF-555?style=flat-square">
+**Security:**
+<img src="https://img.shields.io/badge/CrowdStrike_Falcon-E01F3D?style=flat-square&logo=crowdstrike&logoColor=white" alt="CrowdStrike Falcon">
+<img src="https://img.shields.io/badge/Microsoft_Defender-0078D4?style=flat-square" alt="Microsoft Defender">
+<img src="https://img.shields.io/badge/Mimecast-1E1E1E?style=flat-square" alt="Mimecast">
+<img src="https://img.shields.io/badge/CIS_%26_NIST_CSF-555?style=flat-square" alt="CIS and NIST CSF">
 
-**Identity & Endpoint Management**<br>
-<img src="https://img.shields.io/badge/Entra_ID-0078D4?style=flat-square&logo=microsoft&logoColor=white">
-<img src="https://img.shields.io/badge/Active_Directory-0078D4?style=flat-square&logo=windows&logoColor=white">
-<img src="https://img.shields.io/badge/Intune-0078D4?style=flat-square&logo=microsoft&logoColor=white">
-<img src="https://img.shields.io/badge/Microsoft_365-D83B01?style=flat-square&logo=microsoftoffice&logoColor=white">
+**Identity & endpoint:**
+<img src="https://img.shields.io/badge/Entra_ID-0078D4?style=flat-square" alt="Entra ID">
+<img src="https://img.shields.io/badge/Active_Directory-0078D4?style=flat-square" alt="Active Directory">
+<img src="https://img.shields.io/badge/Intune-0078D4?style=flat-square" alt="Intune">
+<img src="https://img.shields.io/badge/Microsoft_365-D83B01?style=flat-square" alt="Microsoft 365">
 
-**Automation**<br>
-<img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white">
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
-<img src="https://img.shields.io/badge/Power_Automate-0066FF?style=flat-square&logo=powerautomate&logoColor=white">
-<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white">
-<img src="https://img.shields.io/badge/Claude_API-D97757?style=flat-square&logo=anthropic&logoColor=white">
+**Automation & AI:**
+<img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" alt="PowerShell">
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+<img src="https://img.shields.io/badge/Microsoft_Graph-0078D4?style=flat-square" alt="Microsoft Graph">
+<img src="https://img.shields.io/badge/Power_Automate-0066FF?style=flat-square" alt="Power Automate">
+<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions">
+<img src="https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Claude">
+<img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini">
 
-**Infrastructure**<br>
-<img src="https://img.shields.io/badge/Windows_Server-0078D4?style=flat-square&logo=windows&logoColor=white">
-<img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black">
-<img src="https://img.shields.io/badge/VMware_vSphere-607078?style=flat-square&logo=vmware&logoColor=white">
-<img src="https://img.shields.io/badge/Cisco-1BA0D7?style=flat-square&logo=cisco&logoColor=white">
-
----
-
-### Security & Governance tooling
-
-| Project | What it does | Stack |
-| :--- | :--- | :--- |
-| [**IR-Triage-Collector**](https://github.com/Santiago-Agudelo-R/IR-Triage-Collector) | Live-response forensic collector for Windows endpoints: processes, network connections, persistence (Run keys, Tasks, Services), and Defender posture with SHA256-hashed JSON output. | PowerShell Â· Pester Â· GitHub Actions |
-| [**M365-Entra-Audit-Toolkit**](https://github.com/Santiago-Agudelo-R/M365-Entra-Audit-Toolkit) | Governance and hygiene auditor for Microsoft 365, Entra ID, and Intune (stale guests, privileged role assignments, Conditional Access posture, license reclamation). | PowerShell Â· Microsoft Graph Â· Intune Â· Pester |
-| [**SecOps-Field-Playbooks**](https://github.com/Santiago-Agudelo-R/SecOps-Field-Playbooks) | Operational troubleshooting and RCA runbooks for Intune BitLocker escrow remediation, Hybrid Active Directory replication (`repadmin`/`dcdiag`), and EDR host containment validation. | Markdown Â· Intune Â· Active Directory Â· EDR |
-
-### Other projects (Python & AI automation)
-
-| Project | What it does | Stack |
-| :--- | :--- | :--- |
-| [**physics-class-analyzer**](https://github.com/Santiago-Agudelo-R/physics-class-analyzer) | Multimodal Python pipeline for transcribing, segmenting, extracting LaTeX formulas, and generating study guides (DOCX/PDF + concept map) from physics lectures. Pluggable LLM providers (Ollama, OpenAI, offline mock). | Python Â· LLMs Â· Whisper Â· Pytest |
-| [**whiteboard-telegram-collector**](https://github.com/Santiago-Agudelo-R/whiteboard-telegram-collector) | Asynchronous Python service integrating a private Telegram Bot, SQLite, and APScheduler to ingest whiteboard captures and compile weekly PDF decks. | Python Â· Telegram Bot API Â· SQLite Â· PDF |
-
-**In active development**
-
-- **Threat intel enrichment CLI:** Multi-source IOC enrichment utility in Python (VirusTotal, AbuseIPDB)
-- **Cloud & SIEM lab expansion:** Building hands-on detection and posture labs for Microsoft Sentinel (KQL, SC-200 track) and AWS/Azure infrastructure
+**Infrastructure:**
+<img src="https://img.shields.io/badge/Windows_Server-0078D4?style=flat-square" alt="Windows Server">
+<img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux">
+<img src="https://img.shields.io/badge/VMware_vSphere-607078?style=flat-square&logo=vmware&logoColor=white" alt="VMware vSphere">
+<img src="https://img.shields.io/badge/Cisco-1BA0D7?style=flat-square&logo=cisco&logoColor=white" alt="Cisco">
 
 ---
 
 ### Certifications
 
-Microsoft SC-900 Â· Anthropic Claude Platform 101 Â· Mimecast Email Security (Advanced) Â· Cisco CCNA I Â· EF SET English C1<br>
-<sub>Full list on <a href="https://www.linkedin.com/in/santiago-agudelo-/">LinkedIn</a>.</sub>
+Microsoft SC-900 · Anthropic Claude Platform 101 · Mimecast Email Security (Advanced) · Cisco CCNA I · EF SET English C1
+<br><sub>Full list on <a href="https://www.linkedin.com/in/santiago-agudelo-/">LinkedIn</a>.</sub>

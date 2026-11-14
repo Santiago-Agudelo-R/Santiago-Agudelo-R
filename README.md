@@ -1,20 +1,20 @@
 <h1 align="center">Santiago Agudelo</h1>
 <p align="center">
-  <b>Security Operations Analyst</b> · EDR &amp; Incident Response · Microsoft Identity &amp; Intune · PowerShell Automation
+  <b>Security Operations Analyst</b> · EDR &amp; Incident Response · Microsoft Identity &amp; Intune · PowerShell &amp; Python Automation
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/santiago-agudelo-/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:santiagudero@outlook.com"><img src="https://img.shields.io/badge/Email-0078D4?style=for-the-badge" alt="Email"></a>
-  <img src="https://img.shields.io/badge/Medell%C3%ADn,_Colombia-Open_to_Remote-2ea44f?style=for-the-badge" alt="Medellín, Colombia, open to remote">
-  <img src="https://img.shields.io/badge/English_C1-Spanish_Native-555?style=for-the-badge" alt="English C1, Spanish native">
+  <a href="https://www.linkedin.com/in/santiago-agudelo-/">LinkedIn</a> ·
+  <a href="mailto:santiagudero@outlook.com">santiagudero@outlook.com</a> ·
+  Medellín, Colombia (Open to Remote) ·
+  English C1 / Spanish Native
 </p>
 
 ---
 
 ### About me
 
-Security Operations Analyst with 5+ years in enterprise IT and 3+ years in Security Operations. Every week I triage EDR detections in **CrowdStrike Falcon** and **Microsoft Defender**, contain hosts with Real Time Response, remediate endpoint vulnerabilities, and help keep **1,000+ endpoints** patched and compliant across North America, LATAM, and Europe with **Intune**, **Entra ID**, and **PowerShell**.
+Security Operations Analyst with 5+ years of enterprise IT experience, including hands-on experience in endpoint security, incident response, vulnerability remediation, and security automation. Every week I triage EDR detections in **CrowdStrike Falcon** and **Microsoft Defender**, contain hosts with Real Time Response, remediate endpoint vulnerabilities, and help keep **1,000+ endpoints** patched and compliant across North America, LATAM, and Europe with **Intune**, **Entra ID**, and **PowerShell**.
 
 This is where I publish the tools and runbooks I build around that work. The tooling repositories include automated tests and CI, the PowerShell tools ship versioned releases, and all sample data is anonymized.
 
@@ -29,13 +29,20 @@ This is where I publish the tools and runbooks I build around that work. The too
 | [**Intune-Proactive-Remediations**](https://github.com/Santiago-Agudelo-R/Intune-Proactive-Remediations) | Detection and remediation script pairs for BitLocker key escrow, local administrator hygiene, and VSS / Windows Update health. Safe by default and language-independent. | PowerShell · Intune · Pester |
 | [**SecOps-Field-Playbooks**](https://github.com/Santiago-Agudelo-R/SecOps-Field-Playbooks) | Troubleshooting and RCA runbooks for Intune BitLocker escrow, hybrid AD replication, and EDR sensor health, plus clearly labeled self-directed lab runbooks (AWS Systems Manager, SentinelOne, M365 BEC/AiTM triage, vulnerability management). | Markdown · Intune · AD · EDR |
 
-### AI & Python
+### Other projects
 
 | Project | What it does | Stack |
 | :--- | :--- | :--- |
 | [**physics-class-analyzer**](https://github.com/Santiago-Agudelo-R/physics-class-analyzer) | Pipeline that transcribes lectures and uses pluggable LLM providers to segment content, extract LaTeX formulas, and generate DOCX/PDF study guides, with an offline mock provider for cost-free testing. | Python · LLM APIs · Whisper · pytest |
 
-**How I build:** I work with AI coding agents (Claude Code, Gemini, Google Antigravity) for design, refactoring, and review. I own the architecture decisions and verify every change with linting, unit tests, and CI.
+---
+
+### Technical focus
+
+- **Security Operations:** CrowdStrike Falcon (EDR & Real Time Response), Microsoft Defender for Endpoint, incident triage, host containment, vulnerability remediation, Mimecast Email Security, CIS & NIST CSF.
+- **Identity & Endpoint Management:** Microsoft Entra ID (PIM, Conditional Access), Active Directory, Microsoft Intune (compliance policies, BitLocker escrow, Proactive Remediations), Microsoft 365.
+- **Automation & Engineering:** PowerShell, Python, Microsoft Graph API, Power Automate, Pester, pytest, PSScriptAnalyzer, GitHub Actions CI.
+- **Infrastructure:** Windows 10/11 Enterprise, Windows Server, Linux, VMware vSphere, Cisco networking.
 
 ---
 
@@ -46,38 +53,13 @@ This is where I publish the tools and runbooks I build around that work. The too
 
 ---
 
-### Tech stack
-
-**Security:**
-<img src="https://img.shields.io/badge/CrowdStrike_Falcon-E01F3D?style=flat-square&logo=crowdstrike&logoColor=white" alt="CrowdStrike Falcon">
-<img src="https://img.shields.io/badge/Microsoft_Defender-0078D4?style=flat-square" alt="Microsoft Defender">
-<img src="https://img.shields.io/badge/Mimecast-1E1E1E?style=flat-square" alt="Mimecast">
-<img src="https://img.shields.io/badge/CIS_%26_NIST_CSF-555?style=flat-square" alt="CIS and NIST CSF">
-
-**Identity & endpoint:**
-<img src="https://img.shields.io/badge/Entra_ID-0078D4?style=flat-square" alt="Entra ID">
-<img src="https://img.shields.io/badge/Active_Directory-0078D4?style=flat-square" alt="Active Directory">
-<img src="https://img.shields.io/badge/Intune-0078D4?style=flat-square" alt="Intune">
-<img src="https://img.shields.io/badge/Microsoft_365-D83B01?style=flat-square" alt="Microsoft 365">
-
-**Automation & AI:**
-<img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" alt="PowerShell">
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
-<img src="https://img.shields.io/badge/Microsoft_Graph-0078D4?style=flat-square" alt="Microsoft Graph">
-<img src="https://img.shields.io/badge/Power_Automate-0066FF?style=flat-square" alt="Power Automate">
-<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions">
-<img src="https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Claude">
-<img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini">
-
-**Infrastructure:**
-<img src="https://img.shields.io/badge/Windows_Server-0078D4?style=flat-square" alt="Windows Server">
-<img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux">
-<img src="https://img.shields.io/badge/VMware_vSphere-607078?style=flat-square&logo=vmware&logoColor=white" alt="VMware vSphere">
-<img src="https://img.shields.io/badge/Cisco-1BA0D7?style=flat-square&logo=cisco&logoColor=white" alt="Cisco">
-
----
-
 ### Certifications
 
 Microsoft SC-900 · Anthropic Claude Platform 101 · Mimecast Email Security (Advanced) · Cisco CCNA I · EF SET English C1
 <br><sub>Full list on <a href="https://www.linkedin.com/in/santiago-agudelo-/">LinkedIn</a>.</sub>
+
+---
+
+### Development approach
+
+I work with AI coding agents (Claude Code, Gemini, Google Antigravity) for design, refactoring, and review. I own the architecture decisions and verify every change with linting, unit tests, and CI.

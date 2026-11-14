@@ -1,12 +1,12 @@
 <h1 align="center">Santiago Agudelo</h1>
 <p align="center">
-  <b>Security Operations Analyst</b> · EDR &amp; Incident Response · Microsoft Identity &amp; Intune · PowerShell &amp; Python Automation
+  <b>Security Operations Analyst</b> · EDR &amp; Incident Response · Vulnerability Management · Microsoft Entra ID &amp; Intune · PowerShell Automation
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/santiago-agudelo-/">LinkedIn</a> ·
   <a href="mailto:santiagudero@outlook.com">santiagudero@outlook.com</a> ·
-  Medellín, Colombia (Open to Remote) ·
+  Medellín, Colombia (Open to Remote, UTC-5) ·
   English C1 / Spanish Native
 </p>
 
@@ -14,7 +14,7 @@
 
 ### About me
 
-Security Operations Analyst with 5+ years of enterprise IT experience, including hands-on experience in endpoint security, incident response, vulnerability remediation, and security automation. Every week I triage EDR detections in **CrowdStrike Falcon** and **Microsoft Defender**, contain hosts with Real Time Response, remediate endpoint vulnerabilities, and help keep **1,000+ endpoints** patched and compliant across North America, LATAM, and Europe with **Intune**, **Entra ID**, and **PowerShell**.
+Security Operations Analyst with 5+ years in enterprise IT, progressing from infrastructure and service desk to identity and access management (IAM) and, since 2025, dedicated security operations. Every week I triage 20–40 EDR detections in **CrowdStrike Falcon** and **Microsoft Defender**, contain hosts with Real Time Response, remediate vulnerabilities within SLA, and help keep **1,000+ endpoints** patched and compliant across North America, LATAM, and Europe with **Intune**, **Entra ID**, **GoTo Resolve**, and **PowerShell**.
 
 This is where I publish the tools and runbooks I build around that work. The tooling repositories include automated tests and CI, the PowerShell tools ship versioned releases, and all sample data is anonymized.
 
@@ -39,10 +39,10 @@ This is where I publish the tools and runbooks I build around that work. The too
 
 ### Technical focus
 
-- **Security Operations:** CrowdStrike Falcon (EDR & Real Time Response), Microsoft Defender for Endpoint, incident triage, host containment, vulnerability remediation, Mimecast Email Security, CIS & NIST CSF.
-- **Identity & Endpoint Management:** Microsoft Entra ID (PIM, Conditional Access), Active Directory, Microsoft Intune (compliance policies, BitLocker escrow, Proactive Remediations), Microsoft 365.
-- **Automation & Engineering:** PowerShell, Python, Microsoft Graph API, Power Automate, Pester, pytest, PSScriptAnalyzer, GitHub Actions CI.
-- **Infrastructure:** Windows 10/11 Enterprise, Windows Server, Linux, VMware vSphere, Cisco networking.
+- **Security Operations & Incident Response:** CrowdStrike Falcon (detection triage, Real Time Response, host containment, Spotlight), Microsoft Defender for Endpoint, Defender Vulnerability Management, Mimecast, Barracuda, Defender for Office 365, CIS Benchmarks & NIST CSF.
+- **Identity & Endpoint Management:** Microsoft Entra ID (Conditional Access, RBAC, access reviews), Active Directory, Group Policy (GPO), Microsoft Intune (compliance policies, security baselines, BitLocker), Microsoft 365 (Exchange Online, SharePoint, Teams).
+- **Scripting & Automation:** PowerShell, Microsoft Graph API, Power Automate, Python, Pester, pytest, PSScriptAnalyzer, GitHub Actions CI.
+- **Infrastructure & ITSM:** Windows 10/11 Enterprise, Windows Server, Linux, VMware vSphere, GoTo Resolve, Syncro, Freshservice, Autotask, SnipeIT, Cisco networking.
 
 ---
 
@@ -55,7 +55,7 @@ This is where I publish the tools and runbooks I build around that work. The too
 
 ### Certifications
 
-Microsoft SC-900 · Anthropic Claude Platform 101 · Mimecast Email Security (Advanced) · Cisco CCNA I · EF SET English C1
+Microsoft SC-900 · Mimecast Email Security (Advanced) · Anthropic Claude Platform 101 · Cisco CCNA I · Scrum Fundamentals Certified (SFC) · EF SET English C1 (70/100)
 <br><sub>Full list on <a href="https://www.linkedin.com/in/santiago-agudelo-/">LinkedIn</a>.</sub>
 
 ---

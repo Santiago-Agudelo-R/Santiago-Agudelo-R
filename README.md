@@ -1,6 +1,6 @@
 <h1 align="center">Santiago Agudelo</h1>
 <p align="center">
-  <b>Security Operations Analyst</b> · EDR &amp; Incident Response · Microsoft Identity &amp; Intune · PowerShell Automation
+  <b>Security Operations Analyst</b> · EDR &amp; Incident Response · Vulnerability Management · Microsoft Identity &amp; Intune · PowerShell Automation
 </p>
 
 <p align="center">
@@ -14,7 +14,7 @@
 
 ### About me
 
-Security Operations Analyst with 5+ years in enterprise IT and 3+ years in Security Operations. Every week I triage EDR detections in **CrowdStrike Falcon** and **Microsoft Defender**, contain hosts with Real Time Response, and help keep **1,000+ endpoints** patched and compliant across North America, LATAM, and Europe with **Intune**, **Entra ID**, and **PowerShell**.
+Security Operations Analyst with 5+ years in enterprise IT and 3+ years in Security Operations. Every week I triage EDR and email/identity detections in **CrowdStrike Falcon**, **Microsoft Defender**, and **Mimecast**, contain hosts with Real Time Response, drive **vulnerability management and CVE/KEV remediation**, and help keep **1,000+ endpoints** patched and compliant across North America, LATAM, and Europe with **Intune**, **Entra ID**, and **PowerShell**.
 
 This is where I publish the tools and runbooks I build around that work. The tooling repositories include automated tests and CI, the PowerShell tools ship versioned releases, and all sample data is anonymized.
 
@@ -26,8 +26,8 @@ This is where I publish the tools and runbooks I build around that work. The too
 | :--- | :--- | :--- |
 | [**IR-Triage-Collector**](https://github.com/Santiago-Agudelo-R/IR-Triage-Collector) | Live-response collector for Windows endpoints (local, WinRM, CrowdStrike RTR, Defender Live Response): processes, network connections, persistence (Run keys, scheduled tasks, services), Authenticode checks, and SHA256-hashed JSON evidence. | PowerShell · Pester · GitHub Actions |
 | [**M365-Entra-Audit-Toolkit**](https://github.com/Santiago-Agudelo-R/M365-Entra-Audit-Toolkit) | Governance auditor for Microsoft 365, Entra ID, and Intune: stale guests, privileged roles with live PIM and MFA verification, Conditional Access posture, device encryption, and license reclamation. | PowerShell · Microsoft Graph · Pester |
-| [**Intune-Proactive-Remediations**](https://github.com/Santiago-Agudelo-R/Intune-Proactive-Remediations) | Detection and remediation script pairs for BitLocker key escrow, local administrator hygiene, and VSS / Windows Update health. Safe by default and language-independent. | PowerShell · Intune · Pester |
-| [**SecOps-Field-Playbooks**](https://github.com/Santiago-Agudelo-R/SecOps-Field-Playbooks) | Troubleshooting and RCA runbooks for Intune BitLocker escrow, hybrid AD replication, and EDR sensor health, plus clearly labeled self-directed lab runbooks (AWS Systems Manager, SentinelOne). | Markdown · Intune · AD · EDR |
+| [**Intune-Proactive-Remediations**](https://github.com/Santiago-Agudelo-R/Intune-Proactive-Remediations) | Detection and remediation script pairs for BitLocker key escrow, local administrator hygiene, and VSS / Windows Update health, plus an endpoint readiness checklist tool. Safe by default and language-independent. | PowerShell · Intune · Pester |
+| [**SecOps-Field-Playbooks**](https://github.com/Santiago-Agudelo-R/SecOps-Field-Playbooks) | Field-experience runbooks for Intune BitLocker escrow, hybrid AD replication, EDR sensor containment, M365 BEC / AiTM session hijack response, and CISA KEV / SLA vulnerability management, plus clearly labeled self-directed lab runbooks (AWS SSM, SentinelOne). | Markdown · Defender · CrowdStrike · Intune · Entra ID |
 
 ### AI & Python
 
@@ -41,7 +41,8 @@ This is where I publish the tools and runbooks I build around that work. The too
 
 ### Currently learning
 
-- **Microsoft Sentinel and KQL** detection labs (SC-200 track)
+- **Microsoft Sentinel (SIEM/SOAR) and KQL** detection engineering labs (SC-200 track)
+- **Microsoft Purview** (DLP, Information Protection) and **Azure** cloud security posture labs
 - **AWS** (Systems Manager, IAM) and **SentinelOne** threat hunting in self-directed labs
 
 ---
@@ -51,6 +52,7 @@ This is where I publish the tools and runbooks I build around that work. The too
 **Security:**
 <img src="https://img.shields.io/badge/CrowdStrike_Falcon-E01F3D?style=flat-square&logo=crowdstrike&logoColor=white" alt="CrowdStrike Falcon">
 <img src="https://img.shields.io/badge/Microsoft_Defender-0078D4?style=flat-square" alt="Microsoft Defender">
+<img src="https://img.shields.io/badge/Vulnerability_Management-0078D4?style=flat-square" alt="Vulnerability Management">
 <img src="https://img.shields.io/badge/Mimecast-1E1E1E?style=flat-square" alt="Mimecast">
 <img src="https://img.shields.io/badge/CIS_%26_NIST_CSF-555?style=flat-square" alt="CIS and NIST CSF">
 

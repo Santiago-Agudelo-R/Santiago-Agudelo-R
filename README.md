@@ -63,4 +63,4 @@ Microsoft SC-900 · Mimecast Email Security (Advanced) · Anthropic Claude Platf
 
 ### Development approach
 
-I use AI coding agents (Claude Code, Gemini, Google Antigravity) for drafting, refactoring and review. I own the design decisions, and nothing merges without passing linting, unit tests and CI; detection queries are additionally checked against Microsoft's published table schemas.
+I use AI coding assistants for drafting and refactoring. Every push runs PSScriptAnalyzer and Pester or pytest in GitHub Actions, and detection queries are parsed against Microsoft's documented table schemas. No customer data or production telemetry is ever shared with these tools, and I can walk through the reasoning behind any design choice in these repos.

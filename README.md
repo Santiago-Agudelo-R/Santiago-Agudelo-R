@@ -16,25 +16,25 @@
 
 Security Operations Analyst with 5+ years in enterprise IT, progressing from infrastructure and service desk to identity and access management (IAM) and, since 2025, dedicated security operations. Every week I triage 20–40 EDR detections in **CrowdStrike Falcon** and **Microsoft Defender**, contain hosts with Real Time Response, remediate vulnerabilities within SLA, and help keep **1,000+ endpoints** patched and compliant across North America, LATAM, and Europe with **Intune**, **Entra ID**, **GoTo Resolve**, and **PowerShell**.
 
-This is where I publish the tools and runbooks I build around that work. The tooling repositories include automated tests and CI, the PowerShell tools ship versioned releases, and all sample data is anonymized.
+This is where I publish the tools and runbooks I build around that work. Every tooling repository runs linting and tests in GitHub Actions, follows semantic versioning with a changelog, and uses anonymized sample data.
 
 ---
 
 ### Security tooling
 
-| Project | What it does | Stack |
-| :--- | :--- | :--- |
-| [**IR-Triage-Collector**](https://github.com/Santiago-Agudelo-R/IR-Triage-Collector) | Live-response collector for Windows endpoints (local, WinRM, CrowdStrike RTR, Defender Live Response): processes (`T1036.005` masquerading checks), TCP/UDP endpoints, persistence (`HKLM`/`HKCU`/`HKEY_USERS` Run keys, scheduled tasks, services, WMI subscriptions), DNS/ARP caches, logon sessions, and SHA256-hashed JSON evidence. | PowerShell · Pester · GitHub Actions |
-| [**M365-Entra-Audit-Toolkit**](https://github.com/Santiago-Agudelo-R/M365-Entra-Audit-Toolkit) | Governance auditor for Microsoft 365, Entra ID, and Intune: stale guests, privileged roles (active, time-bound, and inactive PIM-eligible schedules with live MFA verification), Conditional Access scope/exclusions, high-risk OAuth app consents, device encryption, and license reclamation. | PowerShell · Microsoft Graph · Pester |
-| [**Intune-Proactive-Remediations**](https://github.com/Santiago-Agudelo-R/Intune-Proactive-Remediations) | Detection and remediation script pairs for BitLocker key escrow (Event ID 845), SID-based local administrator hygiene (`es-CO`/multilingual & Entra ID role SIDs), evidence-safe VSS / Windows Update health, and Microsoft Defender sensor health. | PowerShell · Intune · Pester |
-| [**Defender-Sentinel-KQL-Detections**](https://github.com/Santiago-Agudelo-R/Defender-Sentinel-KQL-Detections) | KQL hunting queries and Microsoft Sentinel analytic rule templates for Defender XDR and Sentinel (field queries and SC-200 lab rules), with automated schema, MITRE ATT&CK, and entity-mapping validation. | KQL · Sentinel YAML · Python · pytest |
-| [**SecOps-Field-Playbooks**](https://github.com/Santiago-Agudelo-R/SecOps-Field-Playbooks) | Troubleshooting and RCA runbooks for Intune BitLocker escrow, hybrid AD replication, and EDR sensor health, plus clearly labeled self-directed lab runbooks (AWS Systems Manager, SentinelOne, M365 BEC/AiTM triage, vulnerability management). | Markdown · Intune · AD · EDR |
+| Project | What it does | Engineering highlights | Stack |
+| :--- | :--- | :--- | :--- |
+| [**IR-Triage-Collector**](https://github.com/Santiago-Agudelo-R/IR-Triage-Collector) | Windows live-response collector for local runs, WinRM, CrowdStrike RTR and Defender Live Response: processes, network endpoints, persistence (Run keys for every user hive, tasks, services, WMI), DNS/ARP, logon sessions. | Reads offline user hives from a temporary copy so evidence is never loaded; UTC timestamps that survive non-US locales; SHA256 emitted to the RTR console for off-host verification. | PowerShell · Pester |
+| [**M365-Entra-Audit-Toolkit**](https://github.com/Santiago-Agudelo-R/M365-Entra-Audit-Toolkit) | Microsoft Graph auditor for Entra ID, M365 and Intune: privileged roles with PIM and MFA, stale guests, Conditional Access gaps, risky app consents, license reclamation. | Reports PIM-eligible holders of never-activated roles; reviews application permissions of third-party apps, not only delegated grants; reports `Unknown` instead of guessing when telemetry is missing; CSV export hardened against formula injection. | PowerShell · Microsoft Graph · Pester |
+| [**Intune-Proactive-Remediations**](https://github.com/Santiago-Agudelo-R/Intune-Proactive-Remediations) | Detection and remediation pairs for BitLocker key escrow, local administrator hygiene, VSS / Windows Update health and Defender sensor health. | Admin approval by SID scoped to the machine and your domain, so it works on Spanish Windows and resists name spoofing; detect and remediate share one function; report-only and evidence-safe by default. | PowerShell · Intune · Pester |
+| [**Defender-Sentinel-KQL-Detections**](https://github.com/Santiago-Agudelo-R/Defender-Sentinel-KQL-Detections) | Six KQL rules for Defender XDR and Sentinel: Defender tampering, AiTM inbox rules, permanent Tier-0 roles, exploitable vulnerabilities, LSASS dumping, Key Vault secret harvesting. | Every query parsed in CI by Microsoft's Kusto engine against the documented table schemas; rules carry an honest `Experimental` / `Hunting` / `Tested` status. | KQL · Python · Node · GitHub Actions |
+| [**SecOps-Field-Playbooks**](https://github.com/Santiago-Agudelo-R/SecOps-Field-Playbooks) | Troubleshooting and incident runbooks: Intune BitLocker escrow, hybrid AD replication, EDR sensor health, M365 BEC/AiTM, vulnerability management. | Evidence is exported and hashed before any eradication step; field runbooks and self-directed lab runbooks are labeled separately. | Markdown · PowerShell · KQL |
 
 ### Other projects
 
 | Project | What it does | Stack |
 | :--- | :--- | :--- |
-| [**physics-class-analyzer**](https://github.com/Santiago-Agudelo-R/physics-class-analyzer) | Pipeline that transcribes lectures and uses pluggable LLM providers to segment content, extract LaTeX formulas, and generate DOCX/PDF study guides, with an offline mock provider for cost-free testing. | Python · LLM APIs · Whisper · pytest |
+| [**physics-class-analyzer**](https://github.com/Santiago-Agudelo-R/physics-class-analyzer) | Turns recorded university physics lectures into DOCX/PDF study guides: transcription, segmentation, LaTeX formula extraction and an HTML concept map, with pluggable LLM providers (Ollama, OpenAI-compatible) and an offline provider for testing. | Python · Whisper · LLM APIs · pytest |
 
 ---
 
@@ -63,4 +63,4 @@ Microsoft SC-900 · Mimecast Email Security (Advanced) · Anthropic Claude Platf
 
 ### Development approach
 
-I work with AI coding agents (Claude Code, Gemini, Google Antigravity) for design, refactoring, and review. I own the architecture decisions and verify every change with linting, unit tests, and CI.
+I use AI coding agents (Claude Code, Gemini, Google Antigravity) for drafting, refactoring and review. I own the design decisions, and nothing merges without passing linting, unit tests and CI; detection queries are additionally checked against Microsoft's published table schemas.
